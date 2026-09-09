@@ -1508,12 +1508,10 @@
 #define NV_CTRL_XINERAMA_ON                                     1
 
 /*
- * NV_CTRL_XINERAMA_STEREO - when TRUE, OpenGL will allow stereo flipping
- * on multiple X screens configured with Xinerama.
- * When FALSE, flipping is allowed only on one X screen at a time.
+ * NV_CTRL_XINERAMA_STEREO - not supported
  */
 
-#define NV_CTRL_XINERAMA_STEREO                                  223 /* RW- */
+#define NV_CTRL_XINERAMA_STEREO                                  223 /* --- */
 #define NV_CTRL_XINERAMA_STEREO_FALSE                            0
 #define NV_CTRL_XINERAMA_STEREO_TRUE                             1
 
